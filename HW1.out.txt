@@ -1,0 +1,90 @@
+/usr/bin/python3 /Users/mercurio/Desktop/MA/HW1.py
+Question1: Hypothesis tests
+Reject null hypothesis. Alternative B improved conversion rates over alternative A.
+-----------------------------
+Question2: Hypothesis tests
+min sample size: 2379
+Test 1: 
+Reject null hypothesis. Alternative B improved conversion rates over alternative A.
+-----------------------------
+Test 2: 
+Fail to reject null hypothesis. Alternative B didn't improve conversion rates over alternative A.
+-----------------------------
+Test 3: 
+Fail to reject null hypothesis. Alternative B didn't improve conversion rates over alternative A.
+-----------------------------
+Test 4: 
+Reject null hypothesis. Alternative B improved conversion rates over alternative A.
+-----------------------------
+Test 5: 
+Fail to reject null hypothesis. Alternative B didn't improve conversion rates over alternative A.
+-----------------------------
+Test 6: 
+Reject null hypothesis. Alternative B improved conversion rates over alternative A.
+-----------------------------
+Test 7: 
+Fail to reject null hypothesis. Alternative B didn't improve conversion rates over alternative A.
+-----------------------------
+Test 8: 
+Fail to reject null hypothesis. Alternative B didn't improve conversion rates over alternative A.
+-----------------------------
+Test 9: 
+Fail to reject null hypothesis. Alternative B didn't improve conversion rates over alternative A.
+-----------------------------
+Test 10: 
+Fail to reject null hypothesis. Alternative B didn't improve conversion rates over alternative A.
+-----------------------------
+Question3: Sequential Test
+Sequential Test 1: 
+Sample 57: 
+xi = 0
+sum(ln(lambda)) = -1.66
+ln(B) = -1.61
+Accept H0
+--------------------
+Sequential Test 2: 
+Not able to stop the test prior to using the full samples.
+--------------------
+Sequential Test 3: 
+Sample 48: 
+xi = 1
+sum(ln(lambda)) = 3.90
+ln(A) = 3.00
+Accept H1
+--------------------
+Sequential Test 4: 
+Not able to stop the test prior to using the full samples.
+--------------------
+Sequential Test 5: 
+Not able to stop the test prior to using the full samples.
+--------------------
+Sequential Test 6: 
+Not able to stop the test prior to using the full samples.
+--------------------
+Sequential Test 7: 
+Not able to stop the test prior to using the full samples.
+--------------------
+Sequential Test 8: 
+Sample 118: 
+xi = 1
+sum(ln(lambda)) = 3.69
+ln(A) = 3.00
+Accept H1
+--------------------
+Sequential Test 9: 
+Sample 136: 
+xi = 1
+sum(ln(lambda)) = 3.17
+ln(A) = 3.00
+Accept H1
+--------------------
+Sequential Test 10: 
+Sample 52: 
+xi = 1
+sum(ln(lambda)) = 3.37
+ln(A) = 3.00
+Accept H1
+--------------------
+average number of iterations: 1230.6
+
+Process finished with exit code 0
