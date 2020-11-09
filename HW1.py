@@ -32,11 +32,14 @@ def significance_test(a,b):
 
 
 def sample_size(a,b):
+    #alpha = 0.05
+    #power = 0.8
+    delta = 0.03
     z_25 = norm.ppf(0.975,loc=0,scale=1)
     z_2 = norm.ppf(0.8,loc=0,scale=1)
     P = (a[2]+b[2])/2
     size = ((z_25 * math.sqrt(2*P*(1-P)) + z_2 * math.sqrt(a[2] * (1 - a[2]) + b[2] * (1 - b[2])))
-            / (0.03))**2
+            / (delta))**2
     print('min sample size: %d' % size)
     return size
 
